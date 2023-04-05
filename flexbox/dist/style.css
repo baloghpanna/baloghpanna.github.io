@@ -1,0 +1,33 @@
+.container-first, .container-second, .container-third, .container-fourth, .container-fifth {
+  display: flex;
+  margin-bottom: 50px;
+}
+.item {
+  width: 150px;
+  height: 150px;
+}
+.green {
+  background: #51d400;
+}
+.yellow {
+  background: #ffd62a;
+}
+.purple {
+  background: #b02afe;
+}
+.container-second {
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+.container-third {
+  flex-direction: column-reverse;
+}
+.container-fourth {
+  width:300px;
+  flex-wrap: wrap;
+}
+.container-fifth {
+  width:300px;
+  flex-wrap: wrap;
+  justify-content: end;
+}

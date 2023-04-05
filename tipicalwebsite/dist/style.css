@@ -1,0 +1,39 @@
+body {
+  width: 900px;
+  position: fixed;
+}
+header {
+  background: aqua;
+  height: 80px;
+}
+section {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+aside {
+  width: 100px;
+}
+aside.left {
+  background: orange;
+}
+main {
+  background: red;
+  width: 600px;
+  position: relative;
+}
+aside.right {
+  background: purple;
+}
+#black_square {
+  width: 80px;
+  height: 80px;
+  background: black;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+footer {
+  background: blue;
+  height: 80px;
+}

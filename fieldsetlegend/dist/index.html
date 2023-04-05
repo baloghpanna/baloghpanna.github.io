@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - MyFirstAppCoding_1_2_Form_Fieldset_Legend</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form>
+  <fieldset>
+    <legend>Interesting application form</legend>
+      <form>
+        <fieldset>
+          <legend> What is your name? </legend>
+          <input type="text" id="name">
+        </fieldset>
+      </form>
+      <form>
+        <fieldset>
+          <legend>What is your favourite color?</legend>
+          <input type="checkbox" id="color1" name="color">
+          <label for="color1"> red </label><br>
+          <input type="checkbox" id="color2" name="color">
+          <label for="color2"> green </label><br>
+          <input type="checkbox" id="color3" name="color">
+          <label for="color3"> blue </label><br>
+          <input type="checkbox" id="color4" name="color">
+          <label for="color4"> other </label>
+          <input type="text" name="color">
+        </fieldset>
+      </form> 
+      <form>
+          <fieldset>
+            <legend>Would you like to become a developer?</legend>
+            <input type="radio" id="yes1">
+            <label for="yes1">Yes</label><br>
+            <input type="radio" id="yes2">
+            <label for="yes2">Ano</label><br>
+            <input type="radio" id="yes3">
+            <label for="yes3">Igen</label><br>
+            <input type="radio" id="yes4">
+            <label for="yes4">Ja</label><br>
+          </fieldset>
+        </form>
+        <form>
+          <fieldset>
+            <legend>Why would you like to become a developer?</legend>
+           <textarea id="why" name="why"
+            rows="5" cols="33">
+            </textarea>
+          </fieldset>
+        </form> 
+    <button type="button">Submit</button>
+  </fieldset>
+</form>
+<!-- partial -->
+  
+</body>
+</html>
